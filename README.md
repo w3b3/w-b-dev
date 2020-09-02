@@ -1,12 +1,13 @@
+# Summary:
+
+- [New machine setup](a)
+- [Backups][b]
+- Snippets for VS Code
+- TODO: init script that automates most of the setup below (linux only)
+
 # New Machine Setup
 
-Do have backup for:
-
-- SSH keys
-- GPG
-- 2-step codes for some services
-
----
+[a][a]
 
 ## Inside the Windows Host
 
@@ -38,7 +39,17 @@ Do have backup for:
   - create a .eslintrc on ~/
   - create a .prettierrc on ~/
 
-## Snippets
+#Backups[b]:
+
+- SSH keys
+- GPG (_how to backup this one?_)
+- 2-step codes for some services
+  - GitHub
+  - Lastpass
+  - Microsoft
+  - Google
+
+# Snippets
 
 _JavaScript_
 
@@ -53,3 +64,29 @@ _Typescript_
 
 - ??? add interface
 - ??? Partial or some other notes/documentation
+
+_React_
+
+- ??? useEffect unsubscribe
+- ??? react memo
+- ??? notes/documentaion
+
+_Jest_
+
+- desc SETUP INITIAL DESCRIBE BLOCK
+- it??? ADD ASSERTION TEMPLATE
+- ??? mock functions
+- notes/docs
+
+_Redux_
+
+- ??? ADD BOILERPLATE FOR BASIC REDUX(DUCKS)
+- ??? Setup Thunks
+- ??? Setup Redux-saga
+- Notes
+
+_Node_
+
+- ??? Express base
+- ??? HTTP requests and streams 101
+- ??? Notes on documentation
