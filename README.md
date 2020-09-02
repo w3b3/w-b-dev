@@ -114,3 +114,4 @@ _Node_
 # TODO
 
 - Create script to automate environment generation (linux only)
+- Move all snippets to a separate folder/wiki
