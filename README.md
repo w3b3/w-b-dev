@@ -1,16 +1,28 @@
-### Hi there 👋
+# New Machine Setup
 
-<!--
-**w-b-dev/w-b-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Do have backup for:
+- SSH keys
+- GPG
+- 2-step codes for some services
+________
+ Inside the Windows Host
+________
+ Getting Windows updated to latest.
+ Upgrade Windows version to Professional
+ Enable WSL 2
+ Install Debian distro
+ Install Docker
+ Install VS Code
+ Sync VS Code
+________
+ Inside the VM
+________
+Update distro `sudo apt get update`
+Install Git `sudo apt install git`
+Restore all .ssh entries from backup and fix folder permissions
+Install curl 
+Install NVM https://github.com/nvm-sh/nvm
+Install latest Node `nvm install 14`
+Install yarn without node https://classic.yarnpkg.com/en/docs/install/#debian-stable
+Install ZSH https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+Install Oh My Zsh https://github.com/ohmyzsh/ohmyzsh
