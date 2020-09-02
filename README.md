@@ -5,6 +5,10 @@
 - [Snippets for VS Code](#c)
 - [TODO](#d): init script that automates most of the setup below (linux only)
 
+<!-- REFERENCE #A -->
+
+<a name="a"></a>
+
 # New Machine Setup
 
 ## Inside the Windows Host
@@ -37,7 +41,11 @@
   - create a .eslintrc on ~/
   - create a .prettierrc on ~/
 
-#Backups<a name="a"></a>:
+<!-- REFERENCE #B -->
+
+<a name="b"></a>
+
+# Backups:
 
 - SSH keys
 - GPG (_how to backup this one?_)
@@ -46,6 +54,10 @@
   - Lastpass
   - Microsoft
   - Google
+
+<!-- REFERENCE #C -->
+
+<a name="c"></a>
 
 # Snippets
 
@@ -88,3 +100,11 @@ _Node_
 - ??? Express base
 - ??? HTTP requests and streams 101
 - ??? Notes on documentation
+
+<!-- REFERENCE #D -->
+
+<a name="d"></a>
+
+# TODO
+
+- Create script to automate environment generation
