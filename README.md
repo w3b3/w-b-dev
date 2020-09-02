@@ -3,11 +3,13 @@
 - [New machine setup](#a)
 - [Backups](#b)
 - [Snippets for VS Code](#c)
-- [TODO](#d): init script that automates most of the setup below (linux only)
+- [TODO](#d)
 
 <!-- REFERENCE #A -->
 
 <a name="a"></a>
+
+---
 
 # New Machine Setup
 
@@ -22,8 +24,6 @@
 - Install VS Code
 - Configure terminal to be zsh
 - Sync VS Code extensions
-
----
 
 ## Inside the VM
 
@@ -45,6 +45,8 @@
 
 <a name="b"></a>
 
+---
+
 # Backups:
 
 - SSH keys
@@ -58,6 +60,8 @@
 <!-- REFERENCE #C -->
 
 <a name="c"></a>
+
+---
 
 # Snippets
 
@@ -105,6 +109,8 @@ _Node_
 
 <a name="d"></a>
 
+---
+
 # TODO
 
-- Create script to automate environment generation
+- Create script to automate environment generation (linux only)
