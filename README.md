@@ -1,13 +1,11 @@
 # Summary:
 
-- [New machine setup](a)
-- [Backups][b]
-- Snippets for VS Code
-- TODO: init script that automates most of the setup below (linux only)
+- [New machine setup](#a)
+- [Backups](#b)
+- [Snippets for VS Code](#c)
+- [TODO](#d): init script that automates most of the setup below (linux only)
 
 # New Machine Setup
-
-[a][a]
 
 ## Inside the Windows Host
 
@@ -39,7 +37,7 @@
   - create a .eslintrc on ~/
   - create a .prettierrc on ~/
 
-#Backups[b]:
+#Backups<a name="a"></a>:
 
 - SSH keys
 - GPG (_how to backup this one?_)
