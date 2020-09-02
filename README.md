@@ -37,3 +37,19 @@ Do have backup for:
   - restore Quokka license
   - create a .eslintrc on ~/
   - create a .prettierrc on ~/
+
+## Snippets
+
+_JavaScript_
+
+- cl "CONSOLE.LOG"
+- mq "BASE MEDIA QUERY"
+- js-s "USE STRICT"
+- jsdoc "ADD BASIC JSDOC TEMPLATE"
+- jsa "ADD ARROW FUNCTION"
+- fetch and process promise, (if async, inside try catch?)
+
+_Typescript_
+
+- ??? add interface
+- ??? Partial or some other notes/documentation
