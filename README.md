@@ -70,6 +70,7 @@ plugins=( git zsh-syntax-highlighting zsh-autosuggestions)
 eval "$(ssh-agent -s)"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
+
   Project specific
   - source ~/code/astra-ui/app/bashrc
 
@@ -79,6 +80,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 ```
+
 ##### Generic aliases
 ```
 alias latest="gf && gl"
@@ -86,8 +88,8 @@ alias master="gcm && glo"
 alias ngrok="~/Downloads/ngrok http 3000"
 ```
 
-####Custom, project-specific aliases
-  - **TODO: improve this!**
+#### Custom, project-specific aliases
+**TODO: improve this!**
 ```    
 alias ui="gcm && latest && rmall && npmall && sourceastraui && runbe; runfe"
 alias runfe="cd /Users/.../app/ && pwd"
