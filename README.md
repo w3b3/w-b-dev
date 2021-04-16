@@ -2,8 +2,7 @@
 
 - [New machine setup](#a)
 - [TODO](#d)
-  [comment]: <> (- [Backups]&#40;#b&#41;)
-  [comment]: <> (- [Snippets for VS Code]&#40;#c&#41;)
+  
 <!-- REFERENCE #A -->
 
 <a name="a"></a>
