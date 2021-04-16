@@ -1,10 +1,9 @@
 # Notes to self:
 
 - [New machine setup](#a)
-- [Backups](#b)
-- [Snippets for VS Code](#c)
 - [TODO](#d)
-
+  [comment]: <> (- [Backups]&#40;#b&#41;)
+  [comment]: <> (- [Snippets for VS Code]&#40;#c&#41;)
 <!-- REFERENCE #A -->
 
 <a name="a"></a>
@@ -136,69 +135,21 @@ alias rmall="rm -rf /Users/.../app/node_modules; rm -rf /Users/.../graphql/node_
 
 ---
 
-# Backups:
+[comment]: <> (# Backups:)
 
-- SSH keys
-- GPG (_how to backup this one?_)
-- 2-step codes for some services
-  - GitHub
-  - Lastpass
-  - Microsoft
-  - Google
+[comment]: <> (- SSH keys)
 
-<!-- REFERENCE #C -->
+[comment]: <> (- GPG &#40;_how to backup this one?_&#41;)
 
-<a name="c"></a>
+[comment]: <> (- 2-step codes for some services)
 
----
+[comment]: <> (  - GitHub)
 
-# Snippets
+[comment]: <> (  - Lastpass)
 
-_JavaScript_
+[comment]: <> (  - Microsoft)
 
-- cl "CONSOLE.LOG"
-- mq "BASE MEDIA QUERY"
-- js-s "USE STRICT"
-- jsdoc "ADD BASIC JSDOC TEMPLATE"
-- jsa "ADD ARROW FUNCTION"
-- fetch and process promise, (if async, inside try catch?)
-
-_Typescript_
-
-- ??? add interface
-- ??? Partial or some other notes/documentation
-
-_React_
-
-- ??? useEffect unsubscribe
-- ??? react memo
-- ??? notes/documentaion
-
-_Jest_
-
-- desc SETUP INITIAL DESCRIBE BLOCK
-- it??? ADD ASSERTION TEMPLATE
-- ??? mock functions
-- notes/docs
-
-_Redux_
-
-- ??? ADD BOILERPLATE FOR BASIC REDUX(DUCKS)
-- ??? Setup Thunks
-- ??? Setup Redux-saga
-- Notes
-
-_Node_
-
-- ??? Express base
-- ??? HTTP requests and streams 101
-- ??? Notes on documentation
-
-<!-- REFERENCE #D -->
-
-<a name="d"></a>
-
----
+[comment]: <> (  - Google)
 
 # TODO
 
