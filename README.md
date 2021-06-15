@@ -1,52 +1,19 @@
 # Notes to self:
 
-- [New machine setup](#a)
-- [TODO](#d)
-  
-<!-- REFERENCE #A -->
-
-<a name="a"></a>
+- Figure out a way to consistently backup (and restore once things go south), the notebook ubuntu drive
+- Create script to automate environment generation
+- Move all snippets to a separate folder/wiki (instead of relying on VSCode and Webstorm syncing service)
 
 ---
 
+## Ubuntu Setup
+
+- git, curl, node (and node permissions fix), vscode, webstorm
+- obs, droidcam, 
+- kubectl, microk8s, docker
+- lutris, wine
+
 ## New Mac Setup
-
-### Git related actions
-
-- Key agent does not load automatically?
-  - Add`eval "$(ssh-agent -s)"` in the `.zshrc` config
-
-Configure the **shared profiles** in `~/.ssh/config`
-```
-# Personal account
-Host personal
-HostName github.com
-PreferredAuthentications publickey
-IdentityFile ~/.ssh/id_ed25519
-
-Host *
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentityFile ~/.ssh/id_rsa
-
-# Company account
-#Host company
-#HostName github.com
-#PreferredAuthentications publickey
-#IdentityFile ~/.ssh/id_rsa_company
-```
-
-Some tricks to configure GIT
-https://stackoverflow.com/questions/2389361/undo-a-git-merge-that-hasnt-been-pushed-yet?rq=1
-
-- `git config --global help.autocorrect 1`
-- `git config --global rebase.autoStash true`
-- `git checkout -` to switch between branches quickly
-- `git revert HEAD` **double check this one**
-- `git branch -m old new` renaming branches
-- `git commit --amend -m ”YOUR-NEW-COMMIT-MESSAGE”` amend
-- `git reset` unstage all
-- `git reset --soft HEAD~1` undo most recent commit
 
 ### Terminal
 
@@ -128,19 +95,55 @@ alias rmall="rm -rf /Users/.../app/node_modules; rm -rf /Users/.../graphql/node_
   - create a .eslintrc on ~/
   - create a .prettierrc on ~/
 
-<!-- REFERENCE #B -->
+---
 
-<a name="b"></a>
+## Git related actions
+
+- Key agent does not load automatically?
+  - Add`eval "$(ssh-agent -s)"` in the `.zshrc` config
+
+Configure the **shared profiles** in `~/.ssh/config`
+```
+# Personal account
+Host personal
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_ed25519
+
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+
+# Company account
+#Host company
+#HostName github.com
+#PreferredAuthentications publickey
+#IdentityFile ~/.ssh/id_rsa_company
+```
+
+Some tricks to configure GIT
+https://stackoverflow.com/questions/2389361/undo-a-git-merge-that-hasnt-been-pushed-yet?rq=1
+
+- `git config --global help.autocorrect 1`
+- `git config --global rebase.autoStash true`
+- `git checkout -` to switch between branches quickly
+- `git revert HEAD` **double check this one**
+- `git branch -m old new` renaming branches
+- `git commit --amend -m ”YOUR-NEW-COMMIT-MESSAGE”` amend
+- `git reset` unstage all
+- `git reset --soft HEAD~1` undo most recent commit
+
 
 ---
 
-[comment]: <> (# Backups:)
+# Backups:
 
-[comment]: <> (- SSH keys)
+- SSH keys)
 
-[comment]: <> (- GPG &#40;_how to backup this one?_&#41;)
+- GPG &#40;_how to backup this one?_&#41
 
-[comment]: <> (- 2-step codes for some services)
+- 2-step codes for some services
 
 [comment]: <> (  - GitHub)
 
@@ -150,7 +153,3 @@ alias rmall="rm -rf /Users/.../app/node_modules; rm -rf /Users/.../graphql/node_
 
 [comment]: <> (  - Google)
 
-# TODO
-
-- Create script to automate environment generation (linux only)
-- Move all snippets to a separate folder/wiki
