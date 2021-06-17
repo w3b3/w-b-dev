@@ -1,7 +1,17 @@
 # Notes to self:
 
 - Figure out a way to consistently backup (and restore once things go south), the notebook ubuntu drive
-- Create script to automate environment generation (vscode and webstorm snippets, insomnia api, `.zshrc`, `.profile`, `.vimrc`, `~/.ssh/` folder, `.eslintrc`, `.prettierrc`, `.gitconfig` configurations
+- Create script to automate environment generation, such as:
+    
+    - [ ] `.zshrc` for custom theme, functions and etc
+    - [ ] `.profile`
+    - [ ] `.vimrc` to tweak vi
+    - [ ] `~/.ssh/` folder with my keys
+    - [ ] `.eslintrc` and `.prettierrc` with my base defaults
+    - [ ] `.gitconfig` to save me time with personal git preferences
+    - [ ] vscode snippets
+    - [ ] webstorm snippets
+    - [ ] insomnia api collections (already sync'ed [here](https://github.com/w-b-dev/insomnia))
 
 ---
 
