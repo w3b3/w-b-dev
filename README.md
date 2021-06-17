@@ -1,8 +1,7 @@
 # Notes to self:
 
 - Figure out a way to consistently backup (and restore once things go south), the notebook ubuntu drive
-- Create script to automate environment generation
-- Move all snippets to a separate folder/wiki (instead of relying on VSCode and Webstorm syncing service)
+- Create script to automate environment generation (vscode and webstorm snippets, insomnia api, `.zshrc`, `.profile`, `.vimrc`, `~/.ssh/` folder, `.eslintrc`, `.prettierrc`, `.gitconfig` configurations
 
 ---
 
