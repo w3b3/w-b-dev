@@ -1,8 +1,8 @@
 # Notes to self:
 
-- Figure out a way to consistently backup (and restore once things go south), the notebook ubuntu drive
-- Create script to automate environment generation, such as:
-    
+- [ ] MOVE OS-SPECIFIC INSTRUCTIONS TO INDIVIDUAL GISTS
+- [ ] Figure out a way to consistently backup (and restore once things go south), the notebook ubuntu drive
+- [ ] Create script to automate environment generation, such as:  
     - [ ] `.zshrc` for custom theme, functions and etc
     - [ ] `.profile`
     - [ ] `.vimrc` to tweak vi
@@ -134,6 +134,7 @@ Host *
 Some tricks to configure GIT
 https://stackoverflow.com/questions/2389361/undo-a-git-merge-that-hasnt-been-pushed-yet?rq=1
 
+- `git config --global pull.rebase true`
 - `git config --global help.autocorrect 1`
 - `git config --global rebase.autoStash true`
 - `git checkout -` to switch between branches quickly
