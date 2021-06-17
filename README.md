@@ -1,4 +1,4 @@
-# Notes to self:
+# SOME THINGS TO REMEMBER:
 
 - [ ] MOVE OS-SPECIFIC INSTRUCTIONS TO INDIVIDUAL GISTS
 - [ ] Figure out a way to consistently backup (and restore once things go south), the notebook ubuntu drive
