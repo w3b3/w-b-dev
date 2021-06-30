@@ -31,3 +31,22 @@ All is [here](https://github.com/w-b-dev/w-b-dev/blob/master/git-notes.md)
 ## [Windows](https://github.com/w-b-dev/w-b-dev/blob/master/windows-wsl-setup.md)
 --------
 
+### Move these shortcuts somewhere else
+
+##### Generic aliases
+```
+alias latest="gf && gl"
+alias master="gcm && glo"
+alias ngrok="~/Downloads/ngrok http 3000"
+```
+
+#### Custom, project-specific aliases
+**TODO: improve this!**
+```    
+alias ui="gcm && latest && rmall && npmall && sourceastraui && runbe; runfe"
+alias runfe="cd /Users/.../app/ && pwd"
+alias runbe="cd /Users/.../graphql/ && back-end; graphql-remote"
+alias sourceastraui="source /Users/.../app/bashrc; source /Users/.../graphql/bashrc"
+alias npmall="cd /Users/.../app/ && npm i; cd /Users/.../graphql/ && npm i"
+alias rmall="rm -rf /Users/.../app/node_modules; rm -rf /Users/.../graphql/node_modules"
+``` 
