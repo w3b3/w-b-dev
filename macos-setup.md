@@ -31,20 +31,26 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 ```
 
-##### Generic aliases
-```
-alias latest="gf && gl"
-alias master="gcm && glo"
-alias ngrok="~/Downloads/ngrok http 3000"
-```
+- Key agent does not load automatically?
+  - Add`eval "$(ssh-agent -s)"` in the `.zshrc` config
 
-#### Custom, project-specific aliases
-**TODO: improve this!**
-```    
-alias ui="gcm && latest && rmall && npmall && sourceastraui && runbe; runfe"
-alias runfe="cd /Users/.../app/ && pwd"
-alias runbe="cd /Users/.../graphql/ && back-end; graphql-remote"
-alias sourceastraui="source /Users/.../app/bashrc; source /Users/.../graphql/bashrc"
-alias npmall="cd /Users/.../app/ && npm i; cd /Users/.../graphql/ && npm i"
-alias rmall="rm -rf /Users/.../app/node_modules; rm -rf /Users/.../graphql/node_modules"
-``` 
+## SSH config
+Configure the **shared profiles** in `~/.ssh/config`
+```
+# Personal account
+Host personal
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_ed25519
+
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+
+# Company account
+#Host company
+#HostName github.com
+#PreferredAuthentications publickey
+#IdentityFile ~/.ssh/id_rsa_company
+```
