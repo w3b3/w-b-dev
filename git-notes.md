@@ -26,6 +26,8 @@ Host *
 Some tricks to configure GIT
 https://stackoverflow.com/questions/2389361/undo-a-git-merge-that-hasnt-been-pushed-yet?rq=1
 
+- `git config --global core.editor "vi"`
+- `git config --global url.ssh://git@github.com/.insteadOf https://github.com/`
 - `git config --global pull.rebase true`
 - `git config --global help.autocorrect 1`
 - `git config --global rebase.autoStash true`
