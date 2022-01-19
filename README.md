@@ -5,7 +5,7 @@
 ⛽ Please feel free to act like no one is seeing you. No one is.
 
 ```ts
-const chat = `If you need any thing, feel free to 📲 using ${ isNotHuman ? "📵" : "https://www.linkedin.com/in/brasileiro/" }`
+const chat = `If you need any thing, feel free to 📲 using ${ isNotHuman ? "📵" : "linkedin.com/in/brasileiro/" }`
 ```
 
 PS: my handle here is **w-b-dev** and typing [https://w-b.dev](https://w-b.dev) redirects to this address for your convenience.
