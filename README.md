@@ -7,6 +7,11 @@
 ```ts
 const message = `If you need any thing, feel free to 📲 via ${ isNotHuman ? "📵" : "linkedin.com/in/brasileiro" }`
 ```
+
+My handle here is **w-b-dev** and [https://w-b.dev](https://w-b.dev) redirects you here, for your convenience.
+
+On LinkedIn you can find me as **brasileiro** and typing [https://brasileiro.ca](https://brasileiro.ca) redirects you to my favorite profile over there. Again, all for your convenience. Sure 🤩.
+
 ___
 ## Some of the things I've touched over the years
 
@@ -35,9 +40,3 @@ ___
 ### Sail Cannabis
 - Led Front End implementation of Angular Single Page App (SPA) at https://sailcannabis.co/, including a installable Progressive Web App (PWA) approach
 - Introduced a headless CMS approach to marketing content
-
-___
-
-Footnote #1: my handle here is **w-b-dev** and [https://w-b.dev](https://w-b.dev) redirects you here, for your convenience.
-
-Footnote #2: my handle in LinkedIn is **brasileiro** and typing [https://brasileiro.ca](https://brasileiro.ca) redirects you to my profile over there. Again, all for your convenience, of course.
