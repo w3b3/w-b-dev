@@ -18,8 +18,10 @@ ___
 ### Datastax AstraDB
 - https://astra.datastax.com/
 - Migration to Typescript, adoption of Cypress for end-to-end tests, implementation of React Testing Library for unit tests
-- I've also spearheaded usage of Storybook and a mobile first approach
+- I've also spearheaded usage of Storybook
+- Implemented the first fully responsive Dashboard, Mobile-first approach
 - Several pages, components and UI improvement created, mostly leveraging our custom UI library or Material UI or raw SCSS
+- Led a project initiative (FE) to save hundreds of thousands of dollars a month for the company, touching UI, graphql and BE layers
 
 ### Walmart.ca // Browse and Search
 - https://www.walmart.ca/browse/baby/baby-activities-gear/baby-carriers-slings/10002-20026-30385
