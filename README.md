@@ -10,7 +10,7 @@ const message = `If you need any thing, feel free to 📲 via ${ isNotHuman ? "�
 
 My handle here is **w-b-dev** and [https://w-b.dev](https://w-b.dev) redirects you here, for your convenience.
 
-On LinkedIn you can find me as **brasileiro** and typing [https://brasileiro.ca](https://brasileiro.ca) redirects you to my favorite profile over there. Again, all for your convenience. Sure 🤩.
+On LinkedIn you can find me as **brasileiro** and typing [linkedin.com/in/brasileiro](https://linkedin.com/in/brasileiro) redirects you there.
 
 ___
 ## Some of the things I've touched over the years
